@@ -8,7 +8,7 @@ cur_frm.cscript.table_no=function(doc,cdt,cdn)
 		{
 			if (r.message==1)
 			{
-				cur_frm.set_value('table_no','');
+				//cur_frm.set_value('table_no','');
 			}
 		}
 	})
