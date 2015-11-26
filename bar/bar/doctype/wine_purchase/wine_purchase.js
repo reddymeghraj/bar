@@ -12,6 +12,10 @@ cur_frm.cscript.select_item = function(doc,cdt,cdn)
 			d.rate = doclist[0][1];
 			d.item_code = doclist[0][2];
 			refresh_field('wine_purchase_item')
+			if (d.rate==parseInt(0))
+			{
+				alert("Please enter Rate for selected item in Item Matser");
+			}
 		}
 	})
 }

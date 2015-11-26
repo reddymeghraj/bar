@@ -15,7 +15,7 @@ def get_data():
 				{
 					"type": "doctype",
 					"name": "Food Purchase",
-					"description": _("Purchase Food.")
+					"description": _("Purchase Daily Raw Food Material.")
 				},
 				{
 					"type": "doctype",
@@ -74,13 +74,13 @@ def get_data():
 					"is_query_report": True,
 					"description": _("Counter Stock")
 				},
-				{
-					"type":"report",
-					"name" :"Kitchen Stock",
-					"doctype": "Kitchen Stock",
-					"is_query_report": True,
-					"description": _("Kitchen Stock")
-				},
+				#{
+				#	"type":"report",
+				#	"name" :"Kitchen Stock",
+				#	"doctype": "Kitchen Stock",
+				#	"is_query_report": True,
+				#	"description": _("Kitchen Stock")
+				#},
 				{
 					"type":"report",
 					"name" :"Wine Purchase",

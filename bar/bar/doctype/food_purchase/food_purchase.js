@@ -28,13 +28,13 @@ cur_frm.cscript.total_amount=function(doc,cdt,cdn)
 	})
 }
 
-cur_frm.fields_dict["food_purchase_item"].grid.get_field("material_name").get_query = function(doc,cdt,cdn) {
+/*cur_frm.fields_dict["food_purchase_item"].grid.get_field("material_name").get_query = function(doc,cdt,cdn) {
 	var child=locals[cdt][cdn];
 	var item1=child.item_code;
 	return {
 		filters: {
 			'item_name': item1,
-			'item_group':'Purchase Items',
+			//'item_group':'Purchase Items',
 			'item_sub_group':'Kitchen Items'
 		}
 	}
@@ -56,4 +56,4 @@ cur_frm.cscript.material_name=function(doc,cdt,cdn)
 			refresh_field('food_purchase_item')
 		}
 	})
-}
+}*/
